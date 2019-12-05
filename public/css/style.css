@@ -3,9 +3,14 @@
 .header-container {
 
     color: ghostwhite;
-    background-color: rgba(0, 71, 153, 0.692);
+    /* background-color: rgba(0, 71, 153, 0.692); */
     display: flex;
     justify-content: center;
+    background-image: url(../images/coding-background.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
