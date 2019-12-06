@@ -24,13 +24,11 @@
 }
 
 
-
 .social {
 
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-right: 30px; */
     overflow: none;
 }
 
@@ -60,6 +58,22 @@
 }
 
 
+#home {
+    background-color: rgba(0, 173, 204, 0.932)!important;
+}
+
+#resume {
+    background-color: rgba(12, 116, 134, 0.932)!important;
+}
+
+#work {
+    background-color: rgba(1, 69, 109, 0.932)!important;
+}
+
+#contact {
+    background-color: rgba(1, 44, 100, 0.932)!important;
+}
+
 
 
 /* ///////// Responsive Media Queries ///////// */
@@ -74,7 +88,8 @@
     }
 
     .role {
-        font-size: 16px!important;
+        font-size: 12px!important;
+        padding-left: 45px!important;
 
     }
 
