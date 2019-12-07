@@ -17,7 +17,7 @@
 
 .header {
     width: 900px;
-    height: 300px;
+    height: 260px;
     display: flex;
     justify-content: space-between;
     
@@ -58,21 +58,63 @@
 }
 
 
+/* Home Content */
 #home {
     background-color: rgba(0, 173, 204, 0.932)!important;
 }
 
+#home:hover {
+    cursor: pointer;
+}
+
+#homedrop {
+    background-color: rgba(0, 173, 204, 0.932)!important;
+}
+
+/* Resume Content */
 #resume {
     background-color: rgba(12, 116, 134, 0.932)!important;
 }
 
+#resume:hover {
+    cursor: pointer;
+}
+
+#resumedrop {
+    background-color: rgba(12, 116, 134, 0.932)!important;
+}
+
+/* Work Content */
 #work {
     background-color: rgba(1, 69, 109, 0.932)!important;
 }
 
+#work:hover {
+    cursor: pointer;
+}
+
+#workdrop {
+    background-color: rgba(1, 69, 109, 0.932)!important;
+    
+}
+
+/* Contact Content */
 #contact {
     background-color: rgba(1, 44, 100, 0.932)!important;
 }
+
+#contact:hover {
+    cursor: pointer;
+}
+
+#contactdrop {
+    background-color: rgba(1, 44, 100, 0.932)!important;
+}
+
+
+
+/* ///////// Footer ///////// */
+
 
 
 

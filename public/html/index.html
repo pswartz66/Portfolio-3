@@ -7,11 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Reset css -->
     <link rel="stylesheet" type="text/css" href="../css/reset.css">
+
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
     <!-- Style css -->
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/da6b84f0fa.js" crossorigin="anonymous"></script>
     <title>My Portfolio</title>
@@ -23,24 +28,29 @@
 
         <div class="header-container">
             <div class="header">
-                
+
                 <div class="d-flex flex-row">
-                        
-                        <div class="d-flex p-4 align-items-center"><img class="profile-img" src="../images/ProfilePicture.jpg"></div>
-                        <h1 class="d-flex display-4 align-items-center name-logo"> Phillip Swartz </h1>
-        
-                    </div>
-                
+
+                    <div class="d-flex p-4 align-items-center"><img class="profile-img"
+                            src="../images/ProfilePicture.jpg"></div>
+                    <h1 class="d-flex display-4 align-items-center name-logo"> Phillip Swartz </h1>
+
+                </div>
+
                 <div class="d-flex align-items-center social">
-                    <a class="social-icons" href="https://www.linkedin.com/in/phillip-swartz-a6816199/"><i class="fab fa-linkedin fa-1x"></i></a>
+                    <a class="social-icons" href="https://www.linkedin.com/in/phillip-swartz-a6816199/"><i
+                            class="fab fa-linkedin fa-1x"></i></a>
                     <a class="social-icons" href="https://github.com/pswartz66"><i class="fab fa-github fa-1x"></i></a>
-                    <a class="social-icons" href="https://github.com/pswartz66"><i class="fab fa-instagram fa-1x"></i></a>
+                    <a class="social-icons" href="https://github.com/pswartz66"><i
+                            class="fab fa-instagram fa-1x"></i></a>
                 </div>
             </div>
 
         </div>
 
     </header>
+
+
 
     <div class="body-container">
 
@@ -55,34 +65,88 @@
                     </div>
 
                     <div class="d-flex flex-row text-center text-white">
-                        <div id="home" class="p-4 bg-success block-div">
+                        <div id="home" class="p-4 bg-success block-div" data-toggle="collapse" data-target="#homedrop"
+                            aria-controls="homedrop">
                             <i class="fa fa-home fa-2x d-block"></i> Home
                         </div>
-                        <div id="resume" class="p-4 bg-danger block-div">
+                        <div id="resume" class="p-4 bg-danger block-div" data-toggle="collapse"
+                            data-target="#resumedrop" aria-controls="resumedrop">
                             <i class="fa fa-graduation-cap fa-2x d-block"></i> Resume
                         </div>
-                        <div id="work" class="p-4 bg-primary block-div">
+                        <div id="work" class="p-4 bg-primary block-div" data-toggle="collapse" data-target="#workdrop"
+                            aria-controls="workdrop">
                             <i class="fa fa-folder fa-2x d-block"></i> Work
                         </div>
-                        <div id="contact" class="p-4 bg-warning block-div">
+                        <div id="contact" class="p-4 bg-warning block-div" data-toggle="collapse"
+                            data-target="#contactdrop" aria-controls="contactdrop">
                             <i class="fa fa-envelope fa-2x d-block"></i> Contact
                         </div>
 
-
                     </div>
-                    
+
                 </div>
 
-
             </div>
-
-
 
         </div>
 
 
 
+    </div>
 
+
+    <!-- Home Section -->
+    <div class="collapse" id="homedrop">
+        <div class="p-5 text-white">
+            <h2>Home</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        </div>
+    </div>
+
+
+    <!-- Resume Section -->
+    <div class="collapse" id="resumedrop">
+        <div class="p-5 text-white">
+            <h2>Resume</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        </div>
+    </div>
+
+    <!-- Work Section -->
+    <div class="collapse" id="workdrop">
+        <div class="p-5 text-white">
+            <h2>Work</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        </div>
+    </div>
+
+
+    <!-- Contact Section -->
+    <div class="collapse" id="contactdrop">
+        <div class="p-5 text-white">
+            <h2>Contact</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Footer Section -->
+    <div class="footer-container">
+
+        <footer class="p-5 bg-dark text-center footer-cls">
+
+            <button class="btn"><i class="fa fa-download d-block"></i> Download</button>
+
+        </footer>
 
     </div>
 
@@ -91,8 +155,19 @@
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Bootstrap JS dependency, goes after jQuery as it depends on it, must be same version
+    as bootstrap link in head -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> -->
+
     <!-- Javascript -->
     <script src="../javascript/portfolio.js"></script>
+
+
+
+
 </body>
 
 </html>
