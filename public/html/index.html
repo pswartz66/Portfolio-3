@@ -65,20 +65,20 @@
                     </div>
 
                     <div class="d-flex flex-row text-center text-white">
-                        <div id="home" class="p-4 bg-success block-div" data-toggle="collapse" data-target="#homedrop"
+                        <div id="home" class="p-4 block-div" data-toggle="collapse" data-target="#homedrop"
                             aria-controls="homedrop">
                             <i class="fa fa-home fa-2x d-block"></i> Home
                         </div>
-                        <div id="resume" class="p-4 bg-danger block-div" data-toggle="collapse"
-                            data-target="#resumedrop" aria-controls="resumedrop">
+                        <div id="resume" class="p-4 block-div" data-toggle="collapse" data-target="#resumedrop"
+                            aria-controls="resumedrop">
                             <i class="fa fa-graduation-cap fa-2x d-block"></i> Resume
                         </div>
-                        <div id="work" class="p-4 bg-primary block-div" data-toggle="collapse" data-target="#workdrop"
+                        <div id="work" class="p-4 block-div" data-toggle="collapse" data-target="#workdrop"
                             aria-controls="workdrop">
                             <i class="fa fa-folder fa-2x d-block"></i> Work
                         </div>
-                        <div id="contact" class="p-4 bg-warning block-div" data-toggle="collapse"
-                            data-target="#contactdrop" aria-controls="contactdrop">
+                        <div id="contact" class="p-4 block-div" data-toggle="collapse" data-target="#contactdrop"
+                            aria-controls="contactdrop">
                             <i class="fa fa-envelope fa-2x d-block"></i> Contact
                         </div>
 
@@ -99,12 +99,9 @@
     <div class="collapse" id="homedrop">
         <div class="p-5 text-white">
             <!-- <h2>Intro:</h2>
-            <p>I started programming towards the end of my college career...</p>
- -->
+            <p>I started programming towards the end of my college career...</p> -->
             <br>
-
             <div class="col-lg-12 col-md-12 col-sm-12">
-
                 <h2>My Skills</h2>
                 <hr>
                 <h5>HTML</h5>
@@ -157,13 +154,69 @@
     </div>
 
 
-
-
     <!-- Resume Section -->
     <div class="collapse" id="resumedrop">
         <div class="p-5 text-white">
             <h2>Resume</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p></p>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-row res-content-row">
+                            <div class="m-3 card text-light bg-dark border-light mb-3 res-cards">
+                                <div class="card-header">Penn Coding Bootcamp</div>
+                                <div class="card-body text-dark bg-light">
+                                    <h5 class="card-title">Full Stack Developer</h5>
+                                    <p class="card-text">Quick sample text to create the card title and make up the body
+                                        of
+                                        the card's
+                                        content.</p>
+                                    <p class="cus-font-sm-italic">2019 - Present</p>
+                                </div>
+                            </div>
+
+                            <div class="m-3 card text-light bg-dark border-light mb-3 res-cards">
+                                <div class="card-header">Lincoln Financial Group</div>
+                                <div class="card-body text-dark bg-light">
+                                    <h5 class="card-title">Financial Analyst</h5>
+                                    <p class="card-text">Quick sample text to create the card title and make up the body
+                                        of
+                                        the card's
+                                        content.</p>
+                                    <p class="cus-font-sm-italic">2018 - Present</p>
+                                </div>
+                            </div>
+
+                            <div class="m-3 card text-light bg-dark border-light mb-3 res-cards">
+                                <div class="card-header">SEI Investments</div>
+                                <div class="card-body text-dark bg-light">
+                                    <h5 class="card-title">Fund Accountant</h5>
+                                    <p class="card-text">Quick sample text to create the card title and make up the body
+                                        of
+                                        the card's
+                                        content.</p>
+                                    <p class="cus-font-sm-italic">2018 - Present</p>
+                                </div>
+                            </div>
+
+                            <div class="m-3 card text-light bg-dark border-light mb-3 res-cards">
+                                <div class="card-header">Solvay</div>
+                                <div class="card-body text-dark bg-light">
+                                    <h5 class="card-title">Marketing Intern</h5>
+                                    <p class="card-text">Quick sample text to create the card title and make up the body
+                                        of
+                                        the card's
+                                        content.</p>
+                                    <p class="cus-font-sm-italic">2018 - Present</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
 
         </div>
     </div>
@@ -171,10 +224,17 @@
     <!-- Work Section -->
     <div class="collapse" id="workdrop">
         <div class="p-5 text-white">
-            <h2>Work</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h2>Experience</h2>
+            <p></p>
+
+
+
 
         </div>
+
+
+
+    </div>
     </div>
 
 
@@ -221,28 +281,9 @@
 
     <script>
 
-        $("#homedrop").on("show.bs.collapse", function () {
-            $("#resumedrop").collapse('hide');
-            $("#workdrop").collapse('hide');
-            $("#contactdrop").collapse('hide');
+        $(".block-div").click(function () {
+            $('.collapse').collapse('hide');
         });
-
-        $("#resumedrop").on("show.bs.collapse", function () {
-            $("#homedrop").collapse('hide');
-            $("#workdrop").collapse('hide');
-            $("#contactdrop").collapse('hide');
-        });
-        $("#workdrop").on("show.bs.collapse", function () {
-            $("#homedrop").collapse('hide');
-            $("#resumedrop").collapse('hide');
-            $("#contactdrop").collapse('hide');
-        });
-        $("#contactdrop").on("show.bs.collapse", function () {
-            $("#homedrop").collapse('hide');
-            $("#resumedrop").collapse('hide');
-            $("#workdrop").collapse('hide');
-        });
-
 
     </script>
 
