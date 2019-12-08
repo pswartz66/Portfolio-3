@@ -104,6 +104,39 @@
     
 }
 
+
+.work-col-left {
+
+    background-color: rgba(76, 125, 153, 0.932);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    height: 400px;
+
+}
+
+.work-col-right {
+
+    background-color: rgba(76, 125, 153, 0.932);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    height: 400px;
+
+    overflow: scroll;
+
+}
+
+#projects-header {
+
+    /* background-color: rgba(76, 125, 153, 0.932);
+    border: 1px solid rgb(255, 255, 255); */
+    border-radius: 8px;
+    text-align: center;
+    margin: 0px;
+
+}
+
+
+
 /* Contact Content */
 #contact {
     background-color: rgba(1, 44, 100, 0.932)!important;
@@ -122,7 +155,8 @@
     font-size: 12px;
     font-style: italic;
     display: flex;
-    justify-content: flex-start;
+    align-items: baseline;
+
 }
 
 .res-cards {
@@ -138,6 +172,13 @@
     padding: 12px!important;
 
 }
+
+
+
+
+
+
+
 
 
 
@@ -196,6 +237,12 @@
         display: flex;
         justify-content: space-around;
 
+    }
+
+    .work-col-left {
+        visibility: hidden;
+        height: 0px;
+    
     }
   }
 
