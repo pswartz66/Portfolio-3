@@ -1,9 +1,14 @@
-
+html, body {
+    height: 100%;
+    margin: 0;
+    
+}
 
 .header-container {
 
+    
+    flex-basis: fit-content;
     color: ghostwhite;
-    /* background-color: rgba(0, 71, 153, 0.692); */
     display: flex;
     justify-content: center;
     background-image: url(../images/coding-background.jpg);
@@ -11,7 +16,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* overflow: none; */
+    
 
 }
 
