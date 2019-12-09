@@ -46,7 +46,6 @@
 }
 
 .block-div {
-
     width: 25%;
 }
 
@@ -114,14 +113,23 @@
 
 }
 
+
+
 .work-col-right {
 
-    background-color: rgba(76, 125, 153, 0.932);
+    background-color: rgba(244, 251, 255, 0.932);
     border: 1px solid rgb(255, 255, 255);
     border-radius: 8px;
     height: 400px;
 
     overflow: scroll;
+
+}
+
+.work-col-right-wrapper {
+
+    flex-wrap: nowrap;
+    height: 400px;
 
 }
 
@@ -133,6 +141,38 @@
     text-align: center;
     margin: 0px;
 
+}
+
+.project-name-head {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-weight: 600;
+
+}
+
+.p-head-right {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.p-paragraphs {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.a-paragraphs {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgba(38, 158, 228, 0.993);
+    font-weight: 400;
+    
 }
 
 
@@ -174,11 +214,38 @@
 }
 
 
+.projects-list {
+    margin-left: 6px;
+}
+
+a {
+    color: rgb(26, 26, 26);
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.p-head-left {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.185);
+    /* border-bottom: 1px solid #000000; */
+    border-radius: 8px 8px 0px 0px;
+}
+
+#project-hd-text {
+    font-size: 24px;
+}
+
+.projects-overflow {
+    overflow: scroll;
+}
 
 
 
-
-
+/* ///////// Images ///////// */
 
 
 
@@ -244,6 +311,43 @@
         height: 0px;
     
     }
+
+
+    .work-col-right {
+
+        background-color: rgba(244, 251, 255, 0.932);
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 8px;
+        height: 630px;
+        overflow: scroll;
+    
+    }
+
+    .work-col-right-wrapper {
+
+        flex-wrap: nowrap;
+        height: 630px;
+    
+    }
+
+    .p-paragraphs {
+        padding-left: 10px;
+        padding-right: 10px;
+        color: black;
+        font-weight: 300;
+        line-height: 140%;
+    
+    }
+
+    .project-name-head {
+        padding-left: 10px;
+        padding-right: 10px;
+        color: black;
+        font-weight: 500;
+    
+    }
+    
+
   }
 
   @media only screen and (min-width: 1050px) {
