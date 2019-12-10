@@ -265,6 +265,15 @@ a:hover {
 /* ///////// Footer ///////// */
 
 
+/* .footer-cls {
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+} */
+
+
 .flexed-row {
     display: flex!important;
     flex-flow: row!important;
