@@ -4,6 +4,7 @@ html, body {
     
 }
 
+
 .header-container {
 
     
@@ -52,6 +53,7 @@ html, body {
 
 .block-div {
     width: 25%;
+    
 }
 
 .space {
@@ -71,6 +73,7 @@ html, body {
 /* Home Content */
 #home {
     background-color: rgba(0, 173, 204, 0.932)!important;
+    
 }
 
 #home:hover {
@@ -262,6 +265,17 @@ a:hover {
 /* ///////// Footer ///////// */
 
 
+.flexed-row {
+    display: flex!important;
+    flex-flow: row!important;
+    text-align: center!important;
+    color: white!important;
+
+}
+
+
+
+
 
 
 /* ///////// Responsive Media Queries ///////// */
@@ -351,7 +365,21 @@ a:hover {
         font-weight: 500;
     
     }
+
+    .flexed-row {
+        display: flex!important;
+        flex-flow: column!important;
+        text-align: center!important;
+        color: white!important;
     
+    }
+
+    .block-div {
+        
+        width: 100%;
+        
+    }
+
 
   }
 
@@ -364,6 +392,7 @@ a:hover {
 
     }
 
+
   }
 
   @media only screen and (max-width: 1100px) {
@@ -374,5 +403,7 @@ a:hover {
         flex-wrap: wrap;
 
     }
+
+    
 
   }
