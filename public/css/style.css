@@ -22,7 +22,7 @@ html, body {
 }
 
 .header {
-    width: 900px;
+    width: 95%;
     height: 260px;
     display: flex;
     justify-content: space-between;
